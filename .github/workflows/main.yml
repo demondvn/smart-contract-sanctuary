@@ -8,7 +8,7 @@ on:
 jobs:
   vulnerability_scanner:
     # runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: polynode
 
     steps:
     - name: Checkout repository
